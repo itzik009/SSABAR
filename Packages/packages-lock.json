@@ -34,7 +34,7 @@
     },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -337,7 +337,7 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.subsystemregistration": "1.0.5"
       },
       "url": "https://packages.unity.com"
     },
@@ -389,6 +389,14 @@
         "com.unity.inputsystem": "1.0.2"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.zappar.uar": {
+      "version": "file:com.zappar.uar",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
