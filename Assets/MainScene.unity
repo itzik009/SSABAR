@@ -198,6 +198,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 417e80fc42cd67b44a4b7a4a5ed89b43, type: 3}
+--- !u!1 &108874365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3645708277156071535, guid: 417e80fc42cd67b44a4b7a4a5ed89b43,
+    type: 3}
+  m_PrefabInstance: {fileID: 108874364}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &348583587 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3144487843746265115, guid: 0419b82a6126845fa91d4d70782e475c,
@@ -599,6 +605,8 @@ PlayableDirector:
     value: {fileID: 1115280831}
   - key: {fileID: -5585099634354456788, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -4333935120562740005, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
+    value: {fileID: 108874365}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &702421676
@@ -1947,6 +1955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cokegroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741345233013713160, guid: b74da171cc358409a99e703333300a10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b74da171cc358409a99e703333300a10, type: 3}
