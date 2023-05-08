@@ -340,12 +340,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 108874364}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &348583587 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3144487843746265115, guid: 0419b82a6126845fa91d4d70782e475c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3144487843422883512}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &348583588 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3144487843746265116, guid: 0419b82a6126845fa91d4d70782e475c,
@@ -1015,10 +1009,6 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -4340229900940992276, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
-    value: {fileID: 348583587}
-  - key: {fileID: -7393235045745538648, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
-    value: {fileID: 905683000}
   - key: {fileID: 2932609868086022000, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
     value: {fileID: 1743461715}
   - key: {fileID: 3322206623436720478, guid: bb39ee4510eff405bae9479225349a7a, type: 2}
@@ -1242,7 +1232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &905683001
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2093,6 +2083,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e7cfb2de09920694e9c3810a4c83a88e, type: 2}
+    - target: {fileID: -5310128443821451003, guid: 57302a38d13b441ab978babdf9f0ab0b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c1ea3e9dc4994fd6a7c6e078c626ff9, type: 2}
     - target: {fileID: -4881571028565234865, guid: 57302a38d13b441ab978babdf9f0ab0b,
         type: 3}
       propertyPath: m_IsActive
@@ -2133,6 +2128,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ba25fa03a47dd440898f86538bcdf257, type: 2}
+    - target: {fileID: -719837292988769130, guid: 57302a38d13b441ab978babdf9f0ab0b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c1ea3e9dc4994fd6a7c6e078c626ff9, type: 2}
     - target: {fileID: -413175747819715575, guid: 57302a38d13b441ab978babdf9f0ab0b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2183,6 +2183,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8dd19dddc807a42a5b13224f622bc52b, type: 2}
+    - target: {fileID: 2883332712709519642, guid: 57302a38d13b441ab978babdf9f0ab0b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c1ea3e9dc4994fd6a7c6e078c626ff9, type: 2}
     - target: {fileID: 3001866862516208325, guid: 57302a38d13b441ab978babdf9f0ab0b,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3049,7 +3054,7 @@ PrefabInstance:
     - target: {fileID: 1312726486347409456, guid: 7ef1035f66f634ef1ae7f500773600b3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3482092716263034226, guid: 7ef1035f66f634ef1ae7f500773600b3,
         type: 3}
@@ -3070,12 +3075,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 60c3b48448131e74ba933222660b5e84, type: 2}
+      objectReference: {fileID: 2100000, guid: e7cfb2de09920694e9c3810a4c83a88e, type: 2}
     - target: {fileID: 6393727153642995115, guid: 7ef1035f66f634ef1ae7f500773600b3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 60c3b48448131e74ba933222660b5e84, type: 2}
+      objectReference: {fileID: 2100000, guid: e7cfb2de09920694e9c3810a4c83a88e, type: 2}
     - target: {fileID: 7053734304621270663, guid: 7ef1035f66f634ef1ae7f500773600b3,
         type: 3}
       propertyPath: m_RootOrder
