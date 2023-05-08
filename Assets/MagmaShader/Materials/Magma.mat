@@ -61,23 +61,23 @@ Material:
     m_Floats:
     - Vector1_5eccd077d2344b87aa00babc99f10fe3: 0
     - Vector1_711d86d373ca442e945a718016b10a77: 0
-    - _BackgroundTextureSpeed: 0.03
-    - _BackgroundTextureTiling: 0.04
-    - _FlowMapSpeed: -0.65
+    - _BackgroundTextureSpeed: 0.09
+    - _BackgroundTextureTiling: 0.81
+    - _FlowMapSpeed: -1.46
     - _FlowMapStrength: 0.93
-    - _FlowMapTiling: -2.56
-    - _ForegroundTextureSpeed: -0.22
-    - _ForegroundTextureTiling: -0.02
-    - _HeightColorPosition: 0.95
-    - _HeightMapStrength: 0.53
-    - _HeightMapTiling: -0.15
-    - _HeightTextureSpeed: -0.15
+    - _FlowMapTiling: -1.65
+    - _ForegroundTextureSpeed: -0.25
+    - _ForegroundTextureTiling: 0.88
+    - _HeightColorPosition: 2.73
+    - _HeightMapStrength: 0.15
+    - _HeightMapTiling: 1.3
+    - _HeightTextureSpeed: -0.41
     - _HeigthColorPosition: 0.2
     - _HeigthMapStrength: 0.65
     - _HeigthMapTiling: 0.04
     - _HeigthTextureSpeed: 0.01
     - _MiddlegroundTextureStrenght: 0.15
-    - _MiddlegroundTextureTiling: 0.2
+    - _MiddlegroundTextureTiling: 0.49
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TilingFlowMap: 1
